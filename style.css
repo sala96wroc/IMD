@@ -253,6 +253,10 @@ ul.timeline > li:before {
         width: 65%;
     }
 
+    .modIn {
+        height: auto !important;
+    }
+
 
 }
 
@@ -280,6 +284,11 @@ ul.timeline > li:before {
         margin-right: auto;
         width: 90%;
     }
+
+    #portSc img{
+        height: auto !important;
+    }
+
 
     
  
