@@ -1,5 +1,5 @@
 #headS {
-    background-image: url("action-blur-close-up-735911.jpg");
+    background-image: url("imgs/action-blur-close-up-735911.jpg");
     height: 950px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -10,7 +10,29 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    
 }
+
+body h1{
+    font-family: 'Bowlby One SC';
+ }
+
+
+ .stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+
+
 
 #nameS{
     color: white !important;
@@ -37,12 +59,14 @@ html, body {
 }
 
 #intro h1 {
-    font-size: 9em;
+    
     color: #dcdcdc;
+    font-family: 'Bowlby One SC';font-size: 8.5em;
 }
 #intro2 h2 {
-    font-size: 3em;
     color: #dcdcdc;
+    font-family: 'Bowlby One SC';font-size: 2.4em;
+    
     
 }
 
@@ -82,7 +106,7 @@ html, body {
 
 #lastSec {
     height: auto;
-    background-image: url("ai-codes-coding-247791.jpg");
+    background-image: url("imgs/computer-dark-design-777001.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -92,7 +116,8 @@ html, body {
 #eduInn {
     display: flex;
     align-items: center;
-    padding-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .nav-tabs>li {
@@ -132,7 +157,7 @@ html, body {
 
 #edu h1{
     color: white;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .nav-tabs {
@@ -202,6 +227,24 @@ ul.timeline > li:before {
 }
 
 
+@media only screen and (max-width: 500px) {
+    #intro h1 {
+        font-size: 3.5em;
+    }
+
+    #intro2 h2 {
+        font-size: 1.5em;
+        
+        
+    }
+
+    #intro2 {
+        width: 17em;
+        
+    }
+
+}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -249,7 +292,7 @@ ul.timeline > li:before {
     #cmForm{
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto !important;
         width: 65%;
     }
 
@@ -257,6 +300,16 @@ ul.timeline > li:before {
         height: auto !important;
     }
 
+    #workexp h1, #skills h1{
+        text-align: center;
+    }
+
+    #workexp {
+        padding-bottom: 2em;
+    }
+
+   
+    
 
 }
 
@@ -271,7 +324,7 @@ ul.timeline > li:before {
 
     }
     #skills {
-        padding-top: 5em;
+        
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -296,7 +349,18 @@ ul.timeline > li:before {
         font-size: 1.5em;
     }
 
-    
+    #smedia {
+        padding-right: 0 !important;
+       
+    }
+
+    .col-lg-6.col-md-6.col-xs-12 {
+        padding-bottom: 0 !important;
+    }
+
+    #cmForm {
+        margin-right: 1em;
+    }
 
 
 
@@ -472,11 +536,6 @@ input[type=text], select, textarea {
   }
 
   
-
-#cmForm>col-lg-6 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
@@ -524,6 +583,7 @@ input[type=text], select, textarea {
 #cmForm {
     margin-right: auto;
     display: block;
+    width: 30em;
     
 }
 
@@ -596,3 +656,25 @@ input[type=text], select, textarea {
     margin-right: auto;
 }
 
+#refrow {
+    background-color: #2C3034;
+    color: white;
+    text-align: center;
+}
+
+#bootfet > ul {
+    list-style-type: none;
+}
+
+#cvbtn {
+    background-color: rgba(44, 48, 52, 0.822);
+    border: 1px solid #dcdcdc;
+}
+
+#cvbtn:hover {
+    color: #F9558A;
+}
+
+#cvbtn:active {
+    color: #F9558A !important;
+}
