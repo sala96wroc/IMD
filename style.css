@@ -1,0 +1,459 @@
+#headS {
+    background-image: url("action-blur-close-up-735911.jpg");
+    height: 950px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+#nameS{
+    color: white !important;
+}
+
+#mynav{
+    margin-bottom: 0;
+    background-color: rgba(51, 51, 51, 0.6);
+    border: rgba(51, 51, 51, 0.6);
+}
+
+#mynav li a{
+    color: white;
+    font-weight: 500;
+}
+
+#mynav li a:hover{
+    color: #F9558A;
+    font-weight: 500;
+}
+
+#intro {
+    padding-top: 20em;
+}
+
+#intro h1 {
+    font-size: 9em;
+    color: #dcdcdc;
+}
+#intro2 h2 {
+    font-size: 3em;
+    color: #dcdcdc;
+    
+}
+
+#intro2  {
+   border: 3px solid white;
+    width: 30em;
+    display: inline-block;
+}
+
+#abm {
+    padding-top: 3em;
+    background-color: #212529;
+    height: auto;
+    padding-bottom: 2em;
+    color: white;
+}
+
+#abmTxt {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    float:right;
+}
+
+#abmSc img{
+    height: 25em;
+    display: block;
+}
+
+#emailSuccAl {
+    display: none;
+}
+
+
+
+
+#lastSec {
+    height: auto;
+    background-image: url("ai-codes-coding-247791.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+
+#eduInn {
+    display: flex;
+    align-items: center;
+    padding-top: 5em;
+}
+
+.nav-tabs>li {
+    float: initial !important;
+    width: 7.5em;
+    padding-bottom: 0.3em;
+}
+
+.nav-tabs>li>a {
+    border-radius: 0 !important;
+}
+
+.nav.nav-tabs a {
+    background-color: #2C3034;
+    color: white;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li>a:focus, 
+.nav-tabs>li>a:hover {
+    background-color: #F9558A !important;
+    color: white !important;
+    border: initial !important;
+}
+
+#eduTab {
+    display: block;
+    margin-right:auto;
+    width: 60%;
+    color: white;
+
+}
+
+#eduToggs {
+    margin-left: auto;
+}
+
+#edu h1{
+    color: white;
+    padding-top: 2em;
+}
+
+.nav-tabs {
+    border-bottom: initial !important;
+}
+
+
+
+#portf {
+    padding-top: 8em;
+    color: #dcdcdc;
+    background-color: #212529;
+}
+
+#portf h1{
+    padding-bottom: 1em;
+}
+
+
+
+#workexp {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color:white;
+}
+
+#workexpOut h1 {
+    color:white;
+}
+
+#workexpOut {
+    padding-top: 8em;
+    background-color: #212529;
+    padding-bottom: 8em;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #dcdcdc;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #F9558A;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    #abmSc img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    #abmSc h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    #portSc img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 25em;
+        padding-bottom: 1em;
+
+    }
+    #skills {
+        padding-top: 5em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    #abmSc h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+}
+
+#abmSc h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+#botImg, #fitImg, #courierImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#botImg:hover, #fitImg:hover, #courierImg:hover {opacity: 0.5;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #F9558A !important;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#skills {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.mySkill {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color: white;
+}
+
+.skillTitl {
+    width: 2.8em;
+    display:flex;
+    flex-direction:column;
+}
+
+.progress {
+    background-color: #dcdcdc !important;
+    margin-left: 1.5em;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.progress-bar {
+    background-color: #F9558A !important;
+}
+
+
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: #2C3034 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #212529 !important;
+}
+
+.table>thead:first-child>tr:first-child>th {
+    background-color: #212529;
+}
+
+
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #32383E !important;
+  border-bottom: 1px solid #32383E !important;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  
+
+#cmForm>col-lg-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+#contactMe {
+    border-radius: 5px;
+    padding-top: 2em;
+    color: white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.col-lg-4.col-sm-10 {
+    background-color: #212529;
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+#cmForm {
+    color: white;
+}
+
+
+#cmForm>input, #cmForm>textarea{
+    background-color: #dcdcdc !important;
+    color: black;
+}
+

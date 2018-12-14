@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Patryk Sala - Software Developer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body data-spy="scroll">
+	<div id="headS">
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="mynav">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle btn-sm" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" id="nameS" href="#">Patryk Sala</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#abm">About me</a></li>
+						<li><a href="#portf">Projects</a></li>
+						<li><a href="#workExpOut">Work Experience</a></li>
+						<li><a href="#edu">Education</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<div id="intro">
+					<h1> Patryk Sala</h1>
+				</div>
+
+				<div id="intro2">
+					<h2> Software Developer</h2>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row" id="abm">
+		<div id="abmSc">
+			<div class="col-lg-6 col-sm-6  col-xs-12 col-md-6">
+				<div id="abmTxt">
+					<h1> About me</h1>
+					<h2 class="lead"> I'm an undergraduate software developer from Dublin, Ireland </h2>
+					<p class="lead"> Currently working on my final project for Bank of America Merrill Lynch</p>
+					<p class="lead"> Striving to graduate with a First-class degree </p>
+				</div>
+
+			</div>
+
+			<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+				<img src="ja.png" class="img-responsive" alt="Patryk">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row" id="portf">
+		<h1 class="text-center"> Project Portfolio</h1>
+		<div id="portSc">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+
+				<img id="botImg" src="pexels-photo-1482476.jpeg" onclick="popsup('botMod', 'botImg', 'botText')" class="img-responsive"
+				 alt="botproject">
+
+				<div id="botMod" class="modal" onclick="closeMod()">
+					<span class="close" onclick="closeMod()">&times;</span>
+					<p class="model-content" id="botText"> This is description of my project</p>
+				</div>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+
+				<img id="fitImg" src="pexels-photo-416778.jpeg" onclick="popsup('fitMod', 'fitImg', 'fitText')" class="img-responsive"
+				 alt="fitproject">
+
+				<div id="fitMod" class="modal" onclick="closeMod()">
+					<span class="close" onclick="closeMod()">&times;</span>
+					<p class="model-content" id="fitText"> This is description of my project</p>
+				</div>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="pexels-photo-1046403.jpeg" id="courierImg" class="img-responsive" alt="courierproject" onclick="popsup('courierMod', 'courierImg', 'courierText')">
+
+				<div id="courierMod" class="modal" onclick="closeMod()">
+					<span class="close" onclick="closeMod()">&times;</span>
+					<p class="model-content" id="courierText"> This is description of my project</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="row" id="workexpOut">
+
+		<div class="col-lg-6 col-md-6" id="workexp">
+			<div id="exps">
+				<h1> Experience</h1>
+				<ul class="timeline">
+					<li>
+						<a target="_blank" href="#">Currently looking for a job in Software Development</a>
+						<a href="#" class="float-right">2018</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adip nisi semper, et elementum</p>
+					</li>
+
+					<li>
+						<a target="_blank" href="#">Web development for AOI-DIAM.com</a>
+						<a href="#" class="float-right">2018</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adip nisi semper, et elementum</p>
+					</li>
+
+					<li>
+						<a href="#">Junior Software Developer - Cantor Fitzgerald</a>
+						<a href="#" class="float-right">June 2016 - August 2016</a>
+						<p>Curabitur pupelle...</p>
+					</li>
+				</ul>
+			</div>
+
+
+		</div>
+
+		<div class="col-lg-6 col-md-6">
+			<div id="skills">
+				<h1> Top Skills</h1>
+				<div class="mySkill">
+					<div class="skillTitl">
+						<p>JAVA</p>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0"
+						 aria-valuemax="100">
+							<p> 75%</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="mySkill">
+					<div class="skillTitl">
+						<p>C++</p>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0"
+						 aria-valuemax="100">
+							<p> 60%</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="mySkill">
+					<div class="skillTitl">
+						<p>C#</p>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0"
+						 aria-valuemax="100">
+							<p> 60%</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="mySkill">
+					<div class="skillTitl">
+						<p>JAVA</p>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+						 aria-valuemax="100">
+							<p> 80%</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="mySkill">
+					<div class="skillTitl">
+						<p>JAVA</p>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+						 aria-valuemax="100">
+							<p> 80%</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="lastSec">
+		<div class="row" id="edu">
+			<h1 class="text-center"> Education</h1>
+			<div class="col-lg-12 col-sm-12 col-md-12" id="eduInn">
+
+				<div id="eduToggs">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#4y" data-toggle="tab">Fourth Yr.</a></li>
+						<li><a href="#3y" data-toggle="tab">Third Yr.</a></li>
+						<li><a href="#2y" data-toggle="tab">Second Yr.</a></li>
+						<li><a href="#1y" data-toggle="tab">First Yr.</a></li>
+					</ul>
+				</div>
+
+				<div id="eduTab">
+					<div class="tab-content clearfix">
+						<div class="tab-pane active" id="4y">
+							<table class="table table-striped table-dark">
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Applied Machine Learning</td>
+										<td>TBR</td>
+									</tr>
+									<tr>
+										<td>Enterprise Application Development 1</td>
+										<td>TBR</td>
+									</tr>
+									<tr>
+										<td>Enterprise Application Architecture</td>
+										<td>TBR</td>
+									</tr>
+									<tr>
+										<td>Interactive Media Design & Visualization</td>
+										<td>TBR</td>
+									</tr>
+									<tr>
+										<td>Information Management</td>
+										<td>TBR</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane" id="3y">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Web Application Development</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<td>Operating Systems</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<td>Cloud Services & Distributed Computing</td>
+										<td>B-</td>
+									</tr>
+									<tr>
+										<td>Advanced Database</td>
+										<td>B-</td>
+									</tr>
+									<tr>
+										<td>Data Structures & Algorithms</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Data Analysis</td>
+										<td>B-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane" id="2y">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Software Development 4</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Project</td>
+										<td>C+</td>
+									</tr>
+									<tr>
+										<td>Networking 2</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Management Science</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Object Oriented Analysis & Design</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<td>Information Security</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Software Development 3</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Software Quality Assurance & Testing</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Networking 1</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Database Design & Programming</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Discrete Mathematics 2</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Web and Mobile Design & Developlment</td>
+										<td>B</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane" id="1y">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Software Development 2</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Object Oriented System Analysis</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<td>Social Media Communications</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Statistics</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Database Fundamentals</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Operating System Fundamentals</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Software Development 1</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Computer Architecture</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Fundamentals of Interface & Web</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<td>Business & Information Systems</td>
+										<td>C+</td>
+									</tr>
+									<tr>
+										<td>Discrete Mathematics 1</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<td>Learning to Learn</td>
+										<td>B+</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row" id="contactMe">
+			<div class="col-lg-2 col-sm-1"></div>
+
+			<div class="col-lg-4 col-sm-10">
+
+				<h2> anjasdnkasmdsmdkamsd</h2>
+			</div>
+
+			<div class="col-lg-4 col-sm-10">
+				<form id="cmForm" onsubmit="emailSucc();return false;" method="POST">
+					<h1> Contact</h1>
+					<div class="col-lg-6">
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+					</div>
+
+					<div class="col-lg-6">
+						<input type="text" id="email" name="email" placeholder="Your e-mail">
+					</div>
+
+					<textarea id="subject" name="subject" placeholder="Send me a message" style="height:200px"></textarea>
+
+					<input type="submit" value="Submit">
+					<div class="alert alert-success" id="emailSuccAl">
+
+					</div>
+				</form>
+			</div>
+			<div class="col-lg-2 col-sm-1"></div>
+		</div>
+	</div>
+
+</body>
+
+</html>
