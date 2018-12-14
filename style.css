@@ -233,7 +233,7 @@ ul.timeline > li:before {
     }
 
     #intro2 h2 {
-        font-size: 1.5em;
+        font-size: 1.4em;
         
         
     }
@@ -243,6 +243,13 @@ ul.timeline > li:before {
         
     }
 
+    #portf h1 {
+        font-size: 2em;
+    }
+
+    #cmForm {
+        width: 20em !important;
+    }
 }
 
 
@@ -667,14 +674,22 @@ input[type=text], select, textarea {
 }
 
 #cvbtn {
+}
+
+#cvbtn, #refbtn {
     background-color: rgba(44, 48, 52, 0.822);
     border: 1px solid #dcdcdc;
+    margin-top: 1em;
 }
 
-#cvbtn:hover {
-    color: #F9558A;
-}
-
-#cvbtn:active {
+#cvbtn:hover, #refbtn:hover {
     color: #F9558A !important;
+}
+
+#refbtn {
+    color: white !important;
+}
+
+#htmlskill p {
+    font-size: 0.8em;
 }
